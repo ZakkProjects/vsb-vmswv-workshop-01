@@ -11,7 +11,8 @@
     "test:ui": "vitest --ui",
     "test:watch": "vitest --watch",
     "test:watch:ui": "vitest --watch --ui",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "standard-version"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.0",
@@ -41,6 +42,7 @@
     "eslint-plugin-react-x": "^1.45.3",
     "globals": "^15.15.0",
     "jsdom": "^26.0.0",
+    "standard-version": "^9.5.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0",
