@@ -12,5 +12,8 @@ jobs:
       - name: Setup Environment
         uses: ./.github/actions/setup-env
 
+      - name: Run tests
+        uses: ./.github/actions/tests
+
       - name: Run linter
         uses: ./.github/actions/lint
